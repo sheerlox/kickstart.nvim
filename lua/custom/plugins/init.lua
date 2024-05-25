@@ -6,6 +6,10 @@ return {
   'ThePrimeagen/vim-be-good',
   'mbbill/undotree',
   {
+    'rose-pine/neovim',
+    name = 'rose-pine',
+  },
+  {
     'jiriks74/presence.nvim',
     event = 'UIEnter',
   },
