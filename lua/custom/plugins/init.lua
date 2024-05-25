@@ -2,4 +2,21 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+return {
+  'ThePrimeagen/vim-be-good',
+  'mbbill/undotree',
+  {
+    'jiriks74/presence.nvim',
+    event = 'UIEnter',
+  },
+  {
+    'wakatime/vim-wakatime',
+    lazy = false,
+  },
+  {
+    'NStefan002/screenkey.nvim',
+    cmd = 'Screenkey',
+    version = '*',
+    config = true,
+  },
+}
