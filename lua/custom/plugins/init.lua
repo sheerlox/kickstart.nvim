@@ -10,6 +10,13 @@ return {
     name = 'rose-pine',
   },
   {
+    'mhanberg/output-panel.nvim',
+    event = 'VeryLazy',
+    config = function()
+      require('output_panel').setup()
+    end,
+  },
+  {
     'jiriks74/presence.nvim',
     event = 'UIEnter',
   },
