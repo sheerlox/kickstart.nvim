@@ -30,4 +30,10 @@ return {
     version = '*',
     config = true,
   },
+  {
+    'ThePrimeagen/harpoon',
+    dependencies = {
+      'nvim-lua/plenary.nvim',
+    },
+  },
 }

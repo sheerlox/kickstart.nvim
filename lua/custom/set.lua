@@ -43,6 +43,9 @@ vim.opt.inccommand = 'split'
 -- Show which line your cursor is on
 vim.opt.cursorline = true
 
+-- Set block cursor style for each mode.
+vim.opt.guicursor = 'n-v-c-sm-i-ci-ve-r-cr-o:block'
+
 -- Print the line number in front of each line.
 vim.opt.number = true
 -- Show the line number relative to the line with the cursor.
