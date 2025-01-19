@@ -36,4 +36,9 @@ return {
       'nvim-lua/plenary.nvim',
     },
   },
+  {
+    'm4xshen/hardtime.nvim',
+    dependencies = { 'MunifTanjim/nui.nvim' },
+    opts = {},
+  },
 }
